@@ -7,6 +7,11 @@
         "build": "parcel build"
     },
     "devDependencies": {
-        "parcel": "latest"
+        "parcel": "latest",
+        "process": "^0.11.10"
+    },
+    "dependencies": {
+        "@sentry/browser": "^6.18.2",
+        "@sentry/tracing": "^6.18.2"
     }
 }
